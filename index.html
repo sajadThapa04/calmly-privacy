@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calmly Privacy Policy</title>
   <meta name="description" content="How Calmly handles your data. Logs stay on your device. Apple Health data is optional and not sold.">
+  <link rel="icon" href="calmly-mark.png">
   <style>
     :root {
       color-scheme: light dark;
@@ -32,27 +33,19 @@
       color: var(--text);
       line-height: 1.55;
     }
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 22px 72px;
-    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 22px 72px; }
     .mark {
-      width: 44px;
-      height: 44px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, #17a3b8, #0e7e8d);
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      object-fit: cover;
       margin-bottom: 18px;
+      box-shadow: 0 8px 24px rgba(20, 32, 46, 0.16);
     }
-    h1 {
-      font-size: 2rem;
-      letter-spacing: -0.03em;
-      margin: 0 0 8px;
-    }
-    .lede, footer {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
+    nav { margin: 0 0 18px; font-size: 0.92rem; }
+    nav a { color: var(--teal); text-decoration: none; font-weight: 600; margin-right: 16px; }
+    h1 { font-size: 2rem; letter-spacing: -0.03em; margin: 0 0 8px; }
+    .lede, footer { color: var(--muted); font-size: 0.95rem; }
     article {
       margin-top: 28px;
       padding: 22px 22px 8px;
@@ -60,20 +53,18 @@
       border: 1px solid var(--border);
       border-radius: 24px;
     }
-    h2 {
-      font-size: 1.05rem;
-      margin: 0 0 8px;
-    }
-    p {
-      margin: 0 0 20px;
-      color: var(--muted);
-    }
+    h2 { font-size: 1.05rem; margin: 0 0 8px; }
+    p { margin: 0 0 20px; color: var(--muted); }
     a { color: var(--teal); }
   </style>
 </head>
 <body>
   <main>
-    <div class="mark" aria-hidden="true"></div>
+    <img class="mark" src="calmly-mark.png" width="64" height="64" alt="Calmly">
+    <nav>
+      <a href="./">Privacy</a>
+      <a href="./terms/">Terms of Use</a>
+    </nav>
     <h1>Calmly Privacy Policy</h1>
     <p class="lede">Last updated 12 September 2026. Calmly: Breathe &amp; Log by Sajad Kumar Thapa.</p>
 
